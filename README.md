@@ -26,4 +26,9 @@ Ensure that Python 3.12 is installed on your system. You can download it from [p
     ```
       pip install pyyaml ollama elevenlabs pydub gtts SpeechRecognition pyaudio
     ```
+3. **Run the command**
+   ```
+      python ai_personality_test.py --tts=1
+   ```
+   tts = 1 means using gtts (free but less optimized, not streamed), tts = 2 using elevenlabs which has limited free quota 10k credit per month but stream
 
