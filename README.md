@@ -1,15 +1,15 @@
-# ai-test-personality
+# AI-test-personality
 have a natural conversation with AI to asses users personality
 
-# Project Setup
+## Project Setup
 
 This guide will help you set up the Python virtual environment for the project, activate it, and install the required dependencies.
 
-## Prerequisites
+### Prerequisites
 
 Ensure that Python 3.12 is installed on your system. You can download it from [python.org](https://www.python.org/downloads/). You should also have `pip` (Python's package installer) installed.
 
-## Steps to Set Up the Project
+### Steps to Set Up the Project
 
 1. **Create a Virtual Environment**
 
