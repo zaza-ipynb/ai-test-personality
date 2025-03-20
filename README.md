@@ -21,8 +21,9 @@ Ensure that Python 3.12 is installed on your system. You can download it from [p
    ```
 2. **Install Required Packages**
 
-    With the virtual environment activated, run the following command to install the necessary packages:
+    With the virtual environment activated, run the following command to install the necessary packages,
+    make sure install portaudio first before pyaudio using brew for mac or apt install for linux:
     ```
-      pip install pyyaml ollama elevenlabs
+      pip install pyyaml ollama elevenlabs pydub gtts SpeechRecognition pyaudio
     ```
 
