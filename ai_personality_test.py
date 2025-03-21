@@ -172,7 +172,7 @@ class AI_Assistant_Ollama:
 
 if __name__ == "__main__":
     ai_assistant = AI_Assistant_Ollama()
-    greetings = "Hi, welcome to AI based personality test, my name is Sandy and I am here to assist you today!"
+    greetings = "Hi, welcome to AI based personality test, please get a quiet place so we can achieve an accurate result!"
     print(greetings+"\n")
     if args.tts == 1 :
         audio = text_to_speech(greetings)
