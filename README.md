@@ -24,11 +24,16 @@ Ensure that Python 3.12 is installed on your system. You can download it from [p
     With the virtual environment activated, run the following command to install the necessary packages,
     make sure install portaudio first before pyaudio using brew for mac or apt install for linux:
     ```
-      pip install pyyaml ollama elevenlabs pydub gtts SpeechRecognition pyaudio
+      pip install pyyaml ollama elevenlabs pydub gtts SpeechRecognition pyaudio streamlit matplotlib
     ```
 3. **Run the command**
    ```
       python ai_personality_test.py --tts=1
    ```
-   tts = 1 means using gtts (free but less optimized, not streamed), tts = 2 using elevenlabs which has limited free quota 10k credit per month but stream
+   tts = 1 means using gtts (free but less optimized, not streamed), tts = 2 using elevenlabs which has limited free quota 10k credit per month but stream, just dont forget to set the api key of    elevenlabs in the config.yaml
+4. **UI version**
+   I also create the UI version using streamlit, can run using this command :
+   ```
+      streamlit run streaming.py
+   ```
 
